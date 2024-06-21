@@ -10,7 +10,5 @@ export class Usuario {
         this.id = id;
         this.nombre = 'Federic Garcia Lorca';
         this.sala = 'sin-sala';
-        
-
     }
 }

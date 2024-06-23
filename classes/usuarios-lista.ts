@@ -26,7 +26,7 @@ export class UsuariosLista {
     }
     // Retornem tots els usuaris
     public getLista() {
-        return this.lista;
+        return this.lista.filter( usuario => usuario.nombre !== 'Jon-Doe')
     }
 
     // Retornem un usuari pel seu id

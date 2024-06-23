@@ -8,7 +8,7 @@ export class Usuario {
 
     constructor(id: string) {
         this.id = id;
-        this.nombre = 'Federic Garcia Lorca';
+        this.nombre = 'Jon-Doe';
         this.sala = 'sin-sala';
     }
 }
